@@ -1,5 +1,6 @@
 # Use the official Python image from the Docker Hub
-FROM python
+# FROM python
+FROM registry.access.redhat.com/ubi9/python-39:1-117.1684741281
 
 # Set the working directory
 WORKDIR /app
